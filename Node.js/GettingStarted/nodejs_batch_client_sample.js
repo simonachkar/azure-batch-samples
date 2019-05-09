@@ -42,7 +42,7 @@ var poolConfig = {id:poolId,
     displayName:"Processing csv files",
     vmSize:vmSize,
     virtualMachineConfiguration:vmConfig,
-    targetDedicated:numVms,
+    targetDedicatedNodes:numVms,
     enableAutoScale:false };
 
 // Creating Batch Pool
